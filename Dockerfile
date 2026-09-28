@@ -1,4 +1,4 @@
-FROM --platform=linux/amd64 python:3.7
+FROM --platform=linux python:3.7
 
 # Set up code directory
 RUN mkdir -p /code
